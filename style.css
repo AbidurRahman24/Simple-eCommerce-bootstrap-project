@@ -1,0 +1,12 @@
+.logo{
+    width: 250px;
+}
+
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+    justify-content: flex-end;
+}
+
+}
