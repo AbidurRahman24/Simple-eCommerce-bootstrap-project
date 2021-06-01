@@ -7,6 +7,9 @@ h1{
     font-size: 3.8rem !important;
     
 }
+h3{
+  color: orange;
+}
 
 .global-button {
     color: white;
