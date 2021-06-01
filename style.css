@@ -48,13 +48,24 @@ img.card-img-top.p-5 {
 .card-price-button a{
   justify-content: end;
 }
+/* icon */
+.rounded {
+  width: 78px;
+  height: 82;
+}
+
+.row-cols-3>* {
+  flex: 0 0 auto;
+  width: 100.333333%;
+}
 
 
 
-
-
-
-
+@media (min-width: 576px) { 
+  .row-cols-3 {
+    flex: 0 0 auto;
+}
+  }
 
 
 
