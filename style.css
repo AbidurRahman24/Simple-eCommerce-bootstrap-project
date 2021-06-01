@@ -58,9 +58,12 @@ img.card-img-top.p-5 {
 
 
 
-@media (min-width: 576px) { 
+@media (max-width: 576px) { 
   .row-cols-3 {
     flex: 0 0 auto;
+}
+.list-group{
+  text-align: center;
 }
 col-sm-12.card-footer{
   flex: 0 0 auto;
@@ -70,14 +73,14 @@ col-sm-12.card-footer{
 
 
 
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   .navbar-expand-lg .navbar-collapse {
     display: flex !important;
     flex-basis: auto;
     justify-content: flex-end;
   }
 }
-@media (min-width: 1200px){
+@media (max-width: 1200px){
 h1 {
     font-size: 2.5rem;
 }}
